@@ -2,7 +2,11 @@
     <string name="app_name">MapMatch</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
     <string name="spinner_title">Choose Gender Here</string>
+    <string name="lorem_ipsum">Laurem ipsum........etc</string>
+
     <string-array name="gender_choices">
         <item>M</item>
         <item>F</item>
