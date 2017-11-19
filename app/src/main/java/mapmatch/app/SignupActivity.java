@@ -215,6 +215,13 @@ public class SignupActivity extends AppCompatActivity {
 
                 data += "&" + URLEncoder.encode("password", "UTF-8")
                         + "=" + URLEncoder.encode(Password, "UTF-8");
+
+                data += "&" + URLEncoder.encode("lat", "UTF-8")
+                        + "=" + URLEncoder.encode("0.0", "UTF-8");
+
+                data += "&" + URLEncoder.encode("long", "UTF-8")
+                        + "=" + URLEncoder.encode("0.0", "UTF-8");
+
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
                 return false;
